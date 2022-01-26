@@ -11,5 +11,5 @@ export default class AccountSearch extends LightningElement {
         this.numberOfEmployees = null;
     }
     @wire(queryAccountsByEmployeeNumber, { numberOfEmployees: '$numberOfEmployees' })
-accounts;
+    accounts;
 }
